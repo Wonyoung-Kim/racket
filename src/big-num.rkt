@@ -108,7 +108,7 @@
      [else ""])
    (number->string x)))
 
-;; Convert a number to a bignum
+;; Convert a num to a bignum
 (define (number->bignum n)
   (cond
     [(< n MAX_BLOCK) (list n)]
